@@ -21,10 +21,6 @@ body{
 .mt_50{
     margin-top: 5rem;
 }
-.mb_50{
-    margin-bottom: 5rem;
-    width: 100%;
-}
 .container-content {
     width: 1200px;
     margin: auto;
@@ -81,32 +77,6 @@ body{
 .item a:hover{
  background-color: rgba(0,0,0,.50);
 }
-section.main_page h1 a {
-    color: #2e2e2e;
-    margin: 0;
-    font-size: 3.6rem;
-    font-family: proxima-nova-regul;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: right;
-    padding: 35px 40px;
-    text-decoration: none;
-    display: block;
-}
-.mid_bg.item.overlay {
-    width: 95%;
-    margin: auto;
-    height: 32rem;
-    margin-top: 5rem;
-    margin-bottom: 8rem;
-}
-.mid_bg.overlay a {
-    font-size: 6rem;
-    padding: 6rem 10rem;
-}
 .footer ul li {
     display: inline-block;
     list-style: none;
@@ -139,12 +109,6 @@ section.main_page h1 a {
     .container-content{
     width: 750px;
 }
-.mid_bg.overlay a{
-    padding: 2rem 5rem;
-}
-.mb_50 {
-    display: none;
-}
     }
 
 @media (max-width: 767px) {
@@ -155,20 +119,6 @@ section.main_page h1 a {
     width: 100%;
     padding: 0 10px;
     margin-bottom: 50px;
-}
-.mid_bg.overlay a{
-    padding: 2rem 3rem;
-    font-size: 2rem;
-}
-section.main_page h1{
-    text-align: center;
-}
-
-.mid_bg.item.overlay{
-    height: 23rem;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    width: 100%;
 }
 .item{
     margin-bottom: 2rem;
@@ -186,10 +136,6 @@ section.main_page h1{
     
 .container-content{
     width: 400px;
-}
-.mid_bg.overlay a{
-    padding: 2rem 4rem;
-    font-size: 3rem;
 }
 .item{
     width: 36rem;
