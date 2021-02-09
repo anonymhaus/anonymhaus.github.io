@@ -16,6 +16,7 @@
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Interact with up to 25 others inside a virtual room. Positional audio provides the opportunity for multiple conversations in one space, without the need for breakout rooms.  Supports video-conferencing, screen-sharing, three dimensional drawing and creation with 3D models, and most file formats and URLs can be uploaded and shared instantly. Hubs work in any web browser, on any desktop or chromebook, any mobile phone, and every virtual reality headset.  There isn’t an app download and install.  Simply share a URL and meet with your team.  You aren’t still using Zoom, are you?">
     <meta name="keywords" content="hubs,virtual room,positional audio,video-conferencing,screen-sharing,three dimensional,3D,virtual reality">
+    <meta http-equiv="refresh" content="96; URL=https://hubs.mozilla.com/DiEMpPk?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high" />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/logo1.png" type="image/x-icon">
     <title>Experiments in Experience</title>
@@ -41,10 +42,7 @@
                         <img src="./img/ia_100001413.webp" alt="">
                         <a href="https://hubs.mozilla.com/zHWvKQ8?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high">Eden Prairie Center</a>
                     </div>
-		    <div class="item overlay">
-                        <img src="./img/ia_100000024.webp" alt="">
-                        <a href="https://amzn.to/36ED2aU">Quest</a>
-                    </div>
+
                     <div class="item overlay">
                         <img src="./img/ia_100001408.webp" alt="">
                         <a href="https://hubs.mozilla.com/3UuJgVR?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high">Antelope Canyon</a>
@@ -97,12 +95,6 @@
                         <a href="https://hubs.mozilla.com/PXLJiqx?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high">Robert's</a>
                     </div>
 
-                    <div class="item overlay">
-                        <img src="./img/ia_100000024.webp" alt="">
-                        <a href="https://amzn.to/36ED2aU">Quest</a>
-                    </div>
-                
-            
 
                     <div class="item overlay">
                         <img src="./img/ia_100000017.webp" alt="">
@@ -124,10 +116,7 @@
                         <img src="./img/ia_100001428.webp" alt="">
                         <a href="https://hubs.mozilla.com/KVfbt8S?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high">Animal Crossing</a>
                     </div>
-                    <div class="item overlay">
-                        <img src="./img/ia_100000024.webp" alt="">
-                        <a href="https://amzn.to/36ED2aU">Quest</a>
-                    </div>
+ 
                     <div class="item overlay">
                         <img src="./img/ia_100001426.webp" alt="">
                         <a href="https://hubs.mozilla.com/rnPbwmc?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high">Throne Room</a>
@@ -385,13 +374,17 @@
                         <img src="./img/ia_100001490.webp" alt="">
                         <a href="https://hubs.mozilla.com/KWEqB5L?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high">Avengers</a>
                     </div>
-		                    <div class="item overlay">
+	
+					
+<!-- commented Otis				
+      
+      		    <div class="item overlay">
                         <img src="./img/ia_100000024.webp" alt="">
                         <a href="https://amzn.to/36ED2aU">Quest</a>
                     </div>
-					
-<!-- commented Otis				
-                    <div class="item overlay">
+      
+      
+      <div class="item overlay">
                         <img src="./img/ia_100001485.webp" alt="">
                         <a href="https://hubs.mozilla.com/cMzFjni?vr_entry_type=2d_now&thirdPerson&allow_multi&allow_idle&no_stats&force_enable_touchscreen&default_material_quality=high&default_mobile_material_quality=high">Otis</a>
                     </div>
@@ -438,14 +431,6 @@ for(var i = 0; i < cards.length; i++){
     var target2 = Math.floor(Math.random() * cards.length -1) +1;
     cards.eq(target).before(cards.eq(target2));
 }
-
-var url = $('.item a:first').attr('href');
-
-var delay = 10000;
-var timeoutID = setTimeout(function() {
-    window.location.href = url;
-}, delay);
-
 </script>
 
 </body>
